@@ -199,7 +199,7 @@ th {
 td { padding: 0.65rem 1rem; border-bottom: 1px solid #1c1c1c; color: var(--text); }
 tbody tr:hover { background: rgba(255,255,255,0.03); }
 
-/* FORMULÁRIO */
+
 #contato form {
   display: flex;
   flex-direction: column;
