@@ -7,455 +7,517 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     
+
     <header>
         <h1>FindGym</h1>
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#filtros">Filtros</a>
+            <a href="#inicio">Início</a>
             <a href="#academias">Academias</a>
-            <a href="#perfis">Perfis</a>
+            <a href="#comparacao">Comparação</a>
             <a href="#contato">Contato</a>
         </nav>
     </header>
 
     <main>
-        <section id="Inicio">
+
+        <section id="inicio">
             <h2>Encontre a academia ideal para você</h2>
-            <p>Compare academias da cidade por preço, localização, modalidades,
-                 estrutura e avaliações dos alunos. </p>
-                 <a href="#academias">Ver academias</a>
+            <p>Compare academias da cidade por preço, localização, modalidades, estrutura e avaliações dos alunos.</p>
+            <a href="#academias">Ver academias</a>
         </section>
-        <section id="Filtros">
-            <h2>Filtre por aquilo que importa para você</h2>
-            <div>
-                <h3>Região</h3>
-                <button>Central</button>
-                <button>Sul</button>
-                <button>Norte</button>
-                <button>Leste</button>
-                <button>Oeste</button>
-                <button>Região do Lago</button>
-            </div>
 
-            <div>
-                <h3>Preço</h3>
-                <button>Econômica</button>
-                <button>Intermediária</button>
-                <button>Premium</button>
-            </div>
-
-            <div>
-                <h3>Objetivo</h3>
-                <button>Musculação</button>
-                <button>Emagrecimento</button>
-                <button>Lutas</button>
-                <button>Funcional</button>
-            </div>
-
-            <div>
-                <h3>Avaliação</h3>
-                <button>4 Estrelas ou mais</button>
-                <button>4.5 Estrelas ou mais</button>
-                <button>5 Estrelas</button>
-            </div>
-        </section>
-        
-        <section id="Academias">
+        <section id="academias">
             <h2>Academias da Cidade</h2>
-            <H3>ELITE ACADEMIA</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="Elite Academia.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Oeste</p>
-                    <p><strong>Preço:</strong> A partir de R$89,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Funcional, Cardio.</p>
-                    <p><strong>Horário:</strong> 05h ás 23h</p>
-                    <p><strong>Avaliação:</strong> 4,7 ⭐</p> 
-                    <a href="https://www.instagram.com/eliteacade/">Ver detalhes</a>
-                    </div>
-                    </article>
 
-                   
-                   <H3>ACADEMIA ARMS GYM</H3>
-                  <ul>
-                    <li> <strong>⭐ Melhor para musculação </li>
-                    <li>⭐ Melhor avaliada</strong></li>
-                  </ul>
+            <h3>Elite Academia</h3>
             <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
+                <article id="elite-academia">
                     <div>
-                    <img src="Arms Gym.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Região do Lago</p>
-                    <p><strong>Preço:</strong> A partir de R$129,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Performance.</p>
-                    <p><strong>Horário:</strong> 05h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 5,0 ⭐</p> 
-                    <a href="https://www.instagram.com/armsgymoficial/">Ver detalhes</a>
+                        <img src="Elite Academia.webp" width="300" height="300" alt="Foto da Elite Academia">
                     </div>
-                    </article>
-                    <H3>ACADEMIA ATRIUM GYM</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
                     <div>
-                    <img src="Atrium Gym.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Sul</p>
-                    <p><strong>Preço:</strong> A partir de R$99,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Funcional.</p>
-                    <p><strong>Horário:</strong> 06h ás 22h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/atrium_academia_/">Ver detalhes</a>
-                    </div>
-                    </article>
-              
-                    <H3>ACADEMIA BLUEFIT CASCAVEL</H3>
-                    <ul>
-                        <li><strong>⭐ Melhor para emagrecimento</strong></li>
-                    </ul>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="Bluefit.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Norte</p>
-                    <p><strong>Preço:</strong> A partir de R$99,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Pilates, Dança, Cardio.</p>
-                    <p><strong>Horário:</strong> 06h ás 23h</p>
-                    <p><strong>Avaliação:</strong> 4,5 ⭐</p> 
-                    <a href="https://www.instagram.com/bluefitcascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-            <H3>ACADEMIA UNIFITNESS</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="UniFitness.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Leste</p>
-                    <p><strong>Preço:</strong> A partir de R$69,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio.</p>
-                    <p><strong>Horário:</strong> 06h ás 22h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/academia_unifitness/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <H3>ACADEMIA JU COURA</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="jucoura.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Central</p>
-                    <p><strong>Preço:</strong> A partir de R$99,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Ginástica, Funcional, Dança, Cardio.</p>
-                    <p><strong>Horário:</strong> 05h ás 23h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/jucouraacademiascascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <H3>ACADEMIA BORN X</H3>
-                    <ul>
-                        <li><strong>⭐ Melhor avaliada</strong></li>
-                    </ul>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="bornx.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Oeste</p>
-                    <p><strong>Preço:</strong> A partir de R$149,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Funcional, Dança, Cardio.</p>
-                    <p><strong>Horário:</strong> 05h ás 23h</p>
-                    <p><strong>Avaliação:</strong> 5,0 ⭐</p> 
-                    <a href="https://www.instagram.com/academiabornx/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <H3>ACADEMIA MAX PUMP</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="maxpump.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Sul</p>
-                    <p><strong>Preço:</strong> A partir de R$139,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Pilates, Dança, Cardio.</p>
-                    <p><strong>Horário:</strong> 06h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/maxpumpcascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                   
-                    <H3>ACADEMIA ENGENHARIA DO CORPO</H3>
-                    <ul>
-                        <li><strong>⭐ Maior horário de funcionamento</strong></li>
-                    </ul>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="engenhariadocorpo.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Norte</p>
-                    <p><strong>Preço:</strong> A partir de R$99,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Funcional, Spinning, Cardio.</p>
-                    <p><strong>Horário:</strong> 24h</p>
-                    <p><strong>Avaliação:</strong> 4,6 ⭐</p> 
-                    <a href="https://www.instagram.com/engenhariadocorpocascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                   <H3>ACADEMIA TWINS E TWINS CROSS TRAINING</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="twinscross.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Leste</p>
-                    <p><strong>Preço:</strong> A partir de R$74,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cross Training.</p>
-                    <p><strong>Horário:</strong> 06h ás 23h</p>
-                    <p><strong>Avaliação:</strong> 4,9 ⭐</p> 
-                    <a href="https://www.instagram.com/academiatwinstwinscrosstrainig/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <article id="brasilfitness">
-                    <H3>ACADEMIA BRASIL FITNESS</H3>
-                    </article>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="brasilfitness.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Central</p>
-                    <p><strong>Preço:</strong> A partir de R$119,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Funcional, HIT, Cardio, Bike.</p>
-                    <p><strong>Horário:</strong> 05:30h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 4,7 ⭐</p> 
-                    <a href="https://www.instagram.com/brasilfitnesscascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <article id="burley">
-                   <H3>ACADEMIA BURLEY FITNESS</H3>
-                   </article>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="Burley.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Oeste</p>
-                    <p><strong>Preço:</strong> A partir de R$79,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Ginástica, Spinning, Cardio.</p>
-                    <p><strong>Horário:</strong> 05h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 4,6 ⭐</p> 
-                    <a href="https://www.instagram.com/burleyfitness_/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                   <H3>ACADEMIA CLUB MAIS</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="clubmais.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Sul</p>
-                    <p><strong>Preço:</strong> A partir de R$99,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Aulas coletivas.</p>
-                    <p><strong>Horário:</strong> 06h ás 22h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/academia_clubmais/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <H3>ACADEMIA FORMS GYM</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="formsgym.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Região do lago</p>
-                    <p><strong>Preço:</strong> A partir de R$129,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Performance.</p>
-                    <p><strong>Horário:</strong> 06h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/formsgym/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                <H3>ACADEMIA SMART FIT CASCAVEL</H3>
-                 <ul>
-                    <li><strong> ⭐ Melhor custo-benefício </strong> </li>
-                   </ul>
-            <p>Considerada uma das melhores opções de custo-benefício
-                    de Cascavel, oferecendo equipamentos modernos.
-                </p>
-             
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="smartfit.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Central</p>
-                    <p><strong>Preço:</strong> A partir de R$99,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Aulas coletivas.</p>
-                    <p><strong>Horário:</strong> 05:30h ás 23h</p>
-                    <p><strong>Avaliação:</strong> 4,5 ⭐</p> 
-                    <a href="https://www.instagram.com/smartfit.cascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <H3>ACADEMIA CORPO FORTE</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="corpoforte.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Região do lago</p>
-                    <p><strong>Preço:</strong> A partir de R79,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Funcional.</p>
-                    <p><strong>Horário:</strong> 07h ás 21h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/corpoforte.academia/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <H3>ACADEMIA FORCE ONE</H3>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="forceone.png" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Central</p>
-                    <p><strong>Preço:</strong> A partir de R$129,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Funcional, Bike.</p>
-                    <p><strong>Horário:</strong> 05h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 4,8 ⭐</p> 
-                    <a href="https://www.instagram.com/forceonecascavel/">Ver detalhes</a>
-                    </div>
-                    </article>
-
-                    <article id="twister">
-                    <H3>ACADEMIA TWISTER</H3>
-                </article>
-            <div class="lista-academias">
-                <article style="display: flex; gap: 10px; align-items: center;">
-                    <div>
-                    <img src="twister.webp" width="300" height="300px"
-                    style="border-radius: 10px; object-fit: cover;"></div>
-                    <div>
-                    <p><strong>Região:</strong> Oeste</p>
-                    <p><strong>Preço:</strong> A partir de R$79,90</p>
-                    <p><strong>Modalidades:</strong> Musculação, Cardio, Funcional, Bike, Dança</p>
-                    <p><strong>Horário:</strong> 06h ás 00h</p>
-                    <p><strong>Avaliação:</strong> 4,7 ⭐</p> 
-                    <a href="https://www.instagram.com/academiatwister/">Ver detalhes</a>
+                        <p><strong>Região:</strong> Oeste</p>
+                        <p><strong>Preço:</strong> A partir de R$89,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Funcional, Cardio</p>
+                        <p><strong>Horário:</strong> 05h às 23h</p>
+                        <p><strong>Avaliação:</strong> 4,7 ⭐</p>
+                        <a href="https://www.instagram.com/eliteacade/" target="_blank">Ver detalhes</a>
                     </div>
                 </article>
             </div>
+
+            <h3>Academia Arms Gym</h3>
+            <ul>
+                <li>⭐ Melhor para musculação</li>
+                <li>⭐ Melhor avaliada</li>
+            </ul>
+            <div class="lista-academias">
+                <article id="arms-gym">
+                    <div>
+                        <img src="Arms Gym.webp" width="300" height="300" alt="Foto da Academia Arms Gym">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Região do Lago</p>
+                        <p><strong>Preço:</strong> A partir de R$129,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Performance</p>
+                        <p><strong>Horário:</strong> 05h às 00h</p>
+                        <p><strong>Avaliação:</strong> 5,0 ⭐</p>
+                        <a href="https://www.instagram.com/armsgymoficial/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Atrium Gym</h3>
+            <div class="lista-academias">
+                <article id="atrium-gym">
+                    <div>
+                        <img src="Atrium Gym.webp" width="300" height="300" alt="Foto da Academia Atrium Gym">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Sul</p>
+                        <p><strong>Preço:</strong> A partir de R$99,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Funcional</p>
+                        <p><strong>Horário:</strong> 06h às 22h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/atrium_academia_/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Bluefit Cascavel</h3>
+            <ul>
+                <li>⭐ Melhor para emagrecimento</li>
+            </ul>
+            <div class="lista-academias">
+                <article id="bluefit">
+                    <div>
+                        <img src="Bluefit.webp" width="300" height="300" alt="Foto da Academia Bluefit Cascavel">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Norte</p>
+                        <p><strong>Preço:</strong> A partir de R$99,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Pilates, Dança, Cardio</p>
+                        <p><strong>Horário:</strong> 06h às 23h</p>
+                        <p><strong>Avaliação:</strong> 4,5 ⭐</p>
+                        <a href="https://www.instagram.com/bluefitcascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Unifitness</h3>
+            <div class="lista-academias">
+                <article id="unifitness">
+                    <div>
+                        <img src="UniFitness.webp" width="300" height="300" alt="Foto da Academia Unifitness">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Leste</p>
+                        <p><strong>Preço:</strong> A partir de R$69,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio</p>
+                        <p><strong>Horário:</strong> 06h às 22h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/academia_unifitness/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Ju Coura</h3>
+            <div class="lista-academias">
+                <article id="ju-coura">
+                    <div>
+                        <img src="jucoura.webp" width="300" height="300" alt="Foto da Academia Ju Coura">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Central</p>
+                        <p><strong>Preço:</strong> A partir de R$99,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Ginástica, Funcional, Dança, Cardio</p>
+                        <p><strong>Horário:</strong> 05h às 23h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/jucouraacademiascascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Born X</h3>
+            <ul>
+                <li>⭐ Melhor avaliada</li>
+            </ul>
+            <div class="lista-academias">
+                <article id="born-x">
+                    <div>
+                        <img src="bornx.webp" width="300" height="300" alt="Foto da Academia Born X">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Oeste</p>
+                        <p><strong>Preço:</strong> A partir de R$149,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Funcional, Dança, Cardio</p>
+                        <p><strong>Horário:</strong> 05h às 23h</p>
+                        <p><strong>Avaliação:</strong> 5,0 ⭐</p>
+                        <a href="https://www.instagram.com/academiabornx/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Max Pump</h3>
+            <div class="lista-academias">
+                <article id="max-pump">
+                    <div>
+                        <img src="maxpump.webp" width="300" height="300" alt="Foto da Academia Max Pump">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Sul</p>
+                        <p><strong>Preço:</strong> A partir de R$139,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Pilates, Dança, Cardio</p>
+                        <p><strong>Horário:</strong> 06h às 00h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/maxpumpcascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Engenharia do Corpo</h3>
+            <ul>
+                <li>⭐ Maior horário de funcionamento</li>
+            </ul>
+            <div class="lista-academias">
+                <article id="engenharia-do-corpo">
+                    <div>
+                        <img src="engenhariadocorpo.webp" width="300" height="300" alt="Foto da Academia Engenharia do Corpo">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Norte</p>
+                        <p><strong>Preço:</strong> A partir de R$99,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Funcional, Spinning, Cardio</p>
+                        <p><strong>Horário:</strong> 24h</p>
+                        <p><strong>Avaliação:</strong> 4,6 ⭐</p>
+                        <a href="https://www.instagram.com/engenhariadocorpocascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Twins e Twins Cross Training</h3>
+            <div class="lista-academias">
+                <article id="twins-cross">
+                    <div>
+                        <img src="twinscross.webp" width="300" height="300" alt="Foto da Academia Twins e Twins Cross Training">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Leste</p>
+                        <p><strong>Preço:</strong> A partir de R$74,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cross Training</p>
+                        <p><strong>Horário:</strong> 06h às 23h</p>
+                        <p><strong>Avaliação:</strong> 4,9 ⭐</p>
+                        <a href="https://www.instagram.com/academiatwinstwinscrosstrainig/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Brasil Fitness</h3>
+            <div class="lista-academias">
+                <article id="brasilfitness">
+                    <div>
+                        <img src="brasilfitness.webp" width="300" height="300" alt="Foto da Academia Brasil Fitness">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Central</p>
+                        <p><strong>Preço:</strong> A partir de R$119,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Funcional, HIT, Cardio, Bike</p>
+                        <p><strong>Horário:</strong> 05h30 às 00h</p>
+                        <p><strong>Avaliação:</strong> 4,7 ⭐</p>
+                        <a href="https://www.instagram.com/brasilfitnesscascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Burley Fitness</h3>
+            <div class="lista-academias">
+                <article id="burley">
+                    <div>
+                        <img src="Burley.webp" width="300" height="300" alt="Foto da Academia Burley Fitness">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Oeste</p>
+                        <p><strong>Preço:</strong> A partir de R$79,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Ginástica, Spinning, Cardio</p>
+                        <p><strong>Horário:</strong> 05h às 00h</p>
+                        <p><strong>Avaliação:</strong> 4,6 ⭐</p>
+                        <a href="https://www.instagram.com/burleyfitness_/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Club Mais</h3>
+            <div class="lista-academias">
+                <article id="club-mais">
+                    <div>
+                        <img src="clubmais.webp" width="300" height="300" alt="Foto da Academia Club Mais">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Sul</p>
+                        <p><strong>Preço:</strong> A partir de R$99,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Aulas coletivas</p>
+                        <p><strong>Horário:</strong> 06h às 22h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/academia_clubmais/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Forms Gym</h3>
+            <div class="lista-academias">
+                <article id="forms-gym">
+                    <div>
+                        <img src="formsgym.webp" width="300" height="300" alt="Foto da Academia Forms Gym">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Região do Lago</p>
+                        <p><strong>Preço:</strong> A partir de R$129,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Performance</p>
+                        <p><strong>Horário:</strong> 06h às 00h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/formsgym/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Smart Fit Cascavel</h3>
+            <ul>
+                <li>⭐ Melhor custo-benefício</li>
+            </ul>
+            <p>Considerada uma das melhores opções de custo-benefício de Cascavel, oferecendo equipamentos modernos.</p>
+            <div class="lista-academias">
+                <article id="smartfit">
+                    <div>
+                        <img src="smartfit.webp" width="300" height="300" alt="Foto da Academia Smart Fit Cascavel">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Central</p>
+                        <p><strong>Preço:</strong> A partir de R$99,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Aulas coletivas</p>
+                        <p><strong>Horário:</strong> 05h30 às 23h</p>
+                        <p><strong>Avaliação:</strong> 4,5 ⭐</p>
+                        <a href="https://www.instagram.com/smartfit.cascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Corpo Forte</h3>
+            <div class="lista-academias">
+                <article id="corpo-forte">
+                    <div>
+                        <img src="corpoforte.webp" width="300" height="300" alt="Foto da Academia Corpo Forte">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Região do Lago</p>
+                        <p><strong>Preço:</strong> A partir de R$79,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Funcional</p>
+                        <p><strong>Horário:</strong> 07h às 21h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/corpoforte.academia/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Force One</h3>
+            <div class="lista-academias">
+                <article id="force-one">
+                    <div>
+                        <img src="forceone.png" width="300" height="300" alt="Foto da Academia Force One">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Central</p>
+                        <p><strong>Preço:</strong> A partir de R$129,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Funcional, Bike</p>
+                        <p><strong>Horário:</strong> 05h às 00h</p>
+                        <p><strong>Avaliação:</strong> 4,8 ⭐</p>
+                        <a href="https://www.instagram.com/forceonecascavel/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
+            <h3>Academia Twister</h3>
+            <div class="lista-academias">
+                <article id="twister">
+                    <div>
+                        <img src="twister.webp" width="300" height="300" alt="Foto da Academia Twister">
+                    </div>
+                    <div>
+                        <p><strong>Região:</strong> Oeste</p>
+                        <p><strong>Preço:</strong> A partir de R$79,90</p>
+                        <p><strong>Modalidades:</strong> Musculação, Cardio, Funcional, Bike, Dança</p>
+                        <p><strong>Horário:</strong> 06h às 00h</p>
+                        <p><strong>Avaliação:</strong> 4,7 ⭐</p>
+                        <a href="https://www.instagram.com/academiatwister/" target="_blank">Ver detalhes</a>
+                    </div>
+                </article>
+            </div>
+
         </section>
-            </article>
-        </section>
+
         <section id="comparacao">
             <h2>Comparação Rápida</h2>
-
             <table>
                 <thead>
                     <tr>
-                    <th>Academia</th>
-                    <th>Região</th>
-                    <th>Preço</th>
-                    <th>Avaliação</th>
-                    <th>Vantagens</th>
-                    <th>Desvantagens</th>
-                </tr>
+                        <th>Academia</th>
+                        <th>Região</th>
+                        <th>Preço</th>
+                        <th>Avaliação</th>
+                        <th>Vantagens</th>
+                        <th>Desvantagens</th>
+                    </tr>
                 </thead>
-
-             <tbody>
-                <tr>
-                    <td>Arms Gym</td>
-                    <td>Região do lago</td>
-                    <td>R$139,90</td>
-                    <td>5,0</td>
-                    <td>Ótima estrutura <br>
-                        Muitos equipamentos <br>
-                        Ambiente moderno
-                    </td>
-                    <td>Pode lotar bastante<br>Mensalidade mais cara</td>
+                <tbody>
+                    <tr>
+                        <td>Elite Academia</td>
+                        <td>Oeste</td>
+                        <td>R$89,90</td>
+                        <td>4,7 ⭐</td>
+                        <td>Preço acessível, bom horário de funcionamento</td>
+                        <td>Poucas modalidades, estrutura menor</td>
+                    </tr>
+                    <tr>
+                        <td>Arms Gym</td>
+                        <td>Região do Lago</td>
+                        <td>R$129,90</td>
+                        <td>5,0 ⭐</td>
+                        <td>Melhor avaliada, ótima estrutura, muitos equipamentos, ambiente moderno</td>
+                        <td>Pode lotar bastante, mensalidade mais cara</td>
+                    </tr>
+                    <tr>
+                        <td>Atrium Gym</td>
+                        <td>Sul</td>
+                        <td>R$99,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Boa avaliação, ambiente agradável</td>
+                        <td>Poucas modalidades, fecha às 22h</td>
+                    </tr>
+                    <tr>
+                        <td>Bluefit Cascavel</td>
+                        <td>Norte</td>
+                        <td>R$99,90</td>
+                        <td>4,5 ⭐</td>
+                        <td>Melhor para emagrecimento, variedade de modalidades com Pilates e Dança</td>
+                        <td>Avaliação abaixo da média, pode ser agitada</td>
+                    </tr>
+                    <tr>
+                        <td>Unifitness</td>
+                        <td>Leste</td>
+                        <td>R$69,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Mensalidade mais barata da lista, boa avaliação</td>
+                        <td>Poucas modalidades, fecha às 22h</td>
+                    </tr>
+                    <tr>
+                        <td>Ju Coura</td>
+                        <td>Central</td>
+                        <td>R$99,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Maior variedade de modalidades, localização central, longo horário</td>
+                        <td>Preço médio para a estrutura oferecida</td>
                     </tr>
                     <tr>
                         <td>Born X</td>
                         <td>Oeste</td>
                         <td>R$149,90</td>
-                        <td>5,0</td>
-                        <td>Bom espaço <br>
-                        Várias modalidades</td>
-                        <td>Mensalidade acima da média</td>
+                        <td>5,0 ⭐</td>
+                        <td>Melhor avaliada, bom espaço, várias modalidades</td>
+                        <td>Mensalidade mais cara da lista</td>
+                    </tr>
+                    <tr>
+                        <td>Max Pump</td>
+                        <td>Sul</td>
+                        <td>R$139,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Ambiente moderno, professores elogiados, bom horário</td>
+                        <td>Mensalidade cara, poucas avaliações online</td>
+                    </tr>
+                    <tr>
+                        <td>Engenharia do Corpo</td>
+                        <td>Norte</td>
+                        <td>R$99,90</td>
+                        <td>4,6 ⭐</td>
+                        <td>Única com funcionamento 24h, bom custo-benefício</td>
+                        <td>Aparelhos desgastados, reclamações de manutenção</td>
+                    </tr>
+                    <tr>
+                        <td>Twins Cross Training</td>
+                        <td>Leste</td>
+                        <td>R$74,90</td>
+                        <td>4,9 ⭐</td>
+                        <td>Ótima avaliação, preço justo, especialidade em Cross Training</td>
+                        <td>Modalidades limitadas, foco específico</td>
+                    </tr>
+                    <tr>
+                        <td>Brasil Fitness</td>
+                        <td>Central</td>
+                        <td>R$119,90</td>
+                        <td>4,7 ⭐</td>
+                        <td>Muitas modalidades incluindo Bike e HIT, longo horário</td>
+                        <td>Mensalidade acima da média para a região</td>
+                    </tr>
+                    <tr>
+                        <td>Burley Fitness</td>
+                        <td>Oeste</td>
+                        <td>R$79,90</td>
+                        <td>4,6 ⭐</td>
+                        <td>Preço acessível, bom horário com abertura às 05h</td>
+                        <td>Avaliação um pouco abaixo, estrutura básica</td>
+                    </tr>
+                    <tr>
+                        <td>Club Mais</td>
+                        <td>Sul</td>
+                        <td>R$99,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Boa avaliação, aulas coletivas incluídas</td>
+                        <td>Fecha às 22h, horário mais curto</td>
+                    </tr>
+                    <tr>
+                        <td>Forms Gym</td>
+                        <td>Região do Lago</td>
+                        <td>R$129,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Ótima avaliação, foco em performance, bom horário</td>
+                        <td>Mensalidade mais cara, poucas modalidades</td>
                     </tr>
                     <tr>
                         <td>Smart Fit</td>
                         <td>Central</td>
                         <td>R$99,90</td>
-                        <td>4,5</td>
-                        <td>Mensalidade acessível<br>
-                        Custo-benefício<br></td>
-                    <td>Muito lotada<br>
-                    Falta espaço/aparelhos</td>
+                        <td>4,5 ⭐</td>
+                        <td>Melhor custo-benefício, equipamentos modernos, aulas coletivas</td>
+                        <td>Muito lotada, falta espaço e aparelhos nos horários de pico</td>
                     </tr>
                     <tr>
-                        <td>Engenharia<br>
-                        do corpo</td>
-                        <td>Norte</td>
-                        <td>99,90</td>
-                        <td>4,6</td>
-                        <td>Horário 24 horas<br>
-                        Bom custo-benefício</td>
-                        <td>Aparelhos desgastados<br>
-                        Reclamações de manutenção</td>
+                        <td>Corpo Forte</td>
+                        <td>Região do Lago</td>
+                        <td>R$79,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Ótima avaliação para o preço, boa localização</td>
+                        <td>Horário mais curto, fecha às 21h</td>
                     </tr>
                     <tr>
-                        <td>Max Pump</td>
-                        <td>Sul</td>
-                        <td>139,90</td>
-                        <td>4,8</td>
-                        <td>Ambiente moderno<br>
-                        Professores elogiados</td>
-                        <td>Mensalidade cara<br>
-                        Poucas avaliações</td>
+                        <td>Force One</td>
+                        <td>Central</td>
+                        <td>R$129,90</td>
+                        <td>4,8 ⭐</td>
+                        <td>Localização central, ótimo horário, várias modalidades</td>
+                        <td>Mensalidade mais alta para a região central</td>
                     </tr>
-                </tr>
-             </tbody>
+                    <tr>
+                        <td>Twister</td>
+                        <td>Oeste</td>
+                        <td>R$79,90</td>
+                        <td>4,7 ⭐</td>
+                        <td>Preço acessível, boa variedade de modalidades, bom horário</td>
+                        <td>Avaliação um pouco abaixo das melhores da lista</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
-        
+
         <section id="contato">
             <h2>Indique uma academia</h2>
-
             <form>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" placeholder="Digite seu nome">
@@ -463,22 +525,22 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" placeholder="Digite seu email">
 
-                <label for="academia">Nome da academia</label>
-                <input type="text"  id="academia" placeholder="Digite o noome
-                da academia">
+                <label for="academia">Nome da academia:</label>
+                <input type="text" id="academia" placeholder="Digite o nome da academia">
 
-                <label for="mensagem">Mensagem</label>
+                <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" placeholder="Escreva sua indicação"></textarea>
 
                 <button type="submit">Enviar indicação</button>
             </form>
         </section>
+
     </main>
+
     <footer>
         <p>&copy; 2026 FindGym - Guia de Academias da Cidade</p>
-        <p>Projeto acadêmico desenvolvido com HTML E CSS</p>
+        <p>Projeto acadêmico desenvolvido com HTML e CSS</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
